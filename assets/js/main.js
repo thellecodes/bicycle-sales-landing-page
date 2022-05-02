@@ -56,6 +56,7 @@ showMenu("nav-toggle", "nav-menu");
 
 // linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
 
+// Gsap animations
 gsap.from(".home__img, .home__data", {
 	opacity: 0,
 	duration: 2,
