@@ -30,6 +30,20 @@ new Swiper('.cycle__img__boxes', {
 
 });
 
+/*===== SHOW MENU =====*/
+const showMenu = (toggleId, navId) => {
+	const toggle = document.getElementById(toggleId),
+		nav = document.getElementById(navId);
+
+	if (toggle && nav) {
+		toggle.addEventListener("click", () => {
+			nav.classList.toggle("show-menu");
+			console.log(nav)
+		});
+	}
+};
+showMenu("nav-toggle", "nav-menu");
+
 /* Link active portfolio */
 // const linkPortfolio = document.querySelectorAll(".portfolio__item");
 
@@ -41,3 +55,27 @@ new Swiper('.cycle__img__boxes', {
 // }
 
 // linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
+
+gsap.from(".home__img, .home__data", {
+	opacity: 0,
+	duration: 2,
+	delay: 0.5,
+});
+
+gsap.from(".nav__logo, .nav__toggle", {
+	opacity: 0,
+	duration: 2,
+	delay: 1.5,
+	y: 25,
+	ease: "expo.out",
+	stagger: 0.2,
+});
+
+gsap.from(".nav__item", {
+	opacity: 0,
+	duration: 2,
+	delay: 1.5,
+	y: 25,
+	ease: "expo.out",
+	stagger: 0.2,
+});
