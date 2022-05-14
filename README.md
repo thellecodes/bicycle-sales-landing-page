@@ -3,12 +3,12 @@
 This project was created by [Samuel Anthony](https://twitter.com/sam1an).
 
 ### Inspiration
-[![Mask Landing Page for Covid 19](https://assets.materialup.com/uploads/986a4242-1207-4461-8393-4410775c5bee/attachment.png)](https://www.uplabs.com/posts/masking-mask-movement-landing-page-website)
+[![Bicycle Landing Page](https://assets.materialup.com/uploads/0b577407-f55f-402f-9840-e5932748c32f/preview.png)](https://www.uplabs.com/posts/bicycle-landing-page-c49a563c-ffcc-4f78-8a18-63b2a10bdccc)
 
 
 ## To install
 
-Run `git clone https://github.com/thellecodes/mask-landing-page.git` to grab this project from github
+Run `git clone https://github.com/thellecodes/bicycle-sales-landing-page.git` to grab this project from github
 
 ### `npm install`
 
@@ -24,3 +24,4 @@ To install the neccessary dependencies run the above command
 - CSS 3
 - GSAP
 - JAVASCRIPT
+- SwiperJS
