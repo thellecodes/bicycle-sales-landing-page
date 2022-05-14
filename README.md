@@ -1,4 +1,4 @@
-# Bicycle Mask Landing Page
+# Bicycle Landing Page
 
 This project was created by [Samuel Anthony](https://twitter.com/sam1an).
 
